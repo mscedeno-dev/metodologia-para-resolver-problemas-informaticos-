@@ -1,0 +1,23 @@
+
+    body { font-family: Arial, sans-serif; padding: 24px; }
+    .container { max-width: 420px; border: 2px dashed #c9c9c9; padding: 16px; border-radius: 12px; }
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px;
+      border: 1px solid #e8e8e8;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+    .item img {
+      width: 54px;
+      height: 54px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+    }
+    .fullname { margin: 0; font-weight: 600; }
+    .id { margin: 4px 0 0; font-size: 12px; color: #666; }
+ 
